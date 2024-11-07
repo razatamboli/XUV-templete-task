@@ -1,0 +1,427 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.menu-bar{
+    position: absolute;
+    width: 31px;
+    height: 0px;
+    top: 32px;
+    left: 38px;
+    color: #FBFBFB;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.input-menu{
+    position: absolute;
+    width: 444px;
+    height: 28px;
+    top: 37px;
+    left: 119px;
+    background-color: #FBFBFBAD;
+    gap: 0px;
+    border-radius: 12px;
+    opacity: 0.52px;
+}
+
+.input-field{
+    position: relative;
+}
+
+.searchbar{
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    top: 42px;
+    left: 128px;
+    color: #FBFBFB;
+}
+
+.vertical-line{
+    position: absolute;
+    width: 15px;
+    top: 38px;
+    left: 158px;
+    color: #F5F5F5;
+}
+
+.right-arrow{
+    position: absolute;
+    width: 9px;
+    top: 45px;
+    left: 540px;
+    color: #FBFBFB;
+}
+
+/* Navbar Starts from here */
+
+.list-group{
+    list-style: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.navbar-list{
+    position: absolute;
+    width: 100%;
+    margin-top: 117px;
+}
+
+.overview-li{
+    color: #FFAC30;
+    border-bottom: 2px solid #FFAC30;
+}
+
+.compare-arrow,.more-dropdown-arrow{
+    position: relative;
+}
+
+.dropdown-compare-arrow{
+    position: absolute;
+    top: 10%;
+    left: 110%;
+}
+
+.dropdown-more-arrow{
+    position: absolute;
+    top: 10%;
+    left: 110%;
+}
+
+/* first-view of XUV Nav & Img */
+
+.xuv-nav{
+    position: absolute;
+    width: auto;
+    height: 383px;
+    top: 189px;
+    left: 104px;
+    color: #55C2FF;
+    gap: 0px;
+    opacity: 0.46px;
+}
+
+.xuv-700{
+    width: 100%;
+    height: 100%;
+    font-family: Allerta Stencil;
+    font-size: 300px;
+    font-weight: 400;
+    line-height: 383.5px;
+}
+
+.xuv-bg-img{
+    position: absolute;
+    background: url('/asset/images/xuv700.png');
+    background-repeat: no-repeat;
+    width: 935px;
+    height: 625px;
+    top: 427px;
+    left: 301px;
+}
+
+/* .showdow-bg-img{
+    position: absolute;
+    width: 40%;
+    height: 50px;
+    left: 24%;
+    bottom: 17%;
+    box-shadow: 0 0 90px 120px #1C424D;
+    border-radius: 49%;
+    opacity: 58%;
+} */
+
+.font-after-xuv{
+    position: absolute;
+    width: 818px;
+    height: 90px;
+    top: 1010px;
+    left: 361px;
+    color: rgba(255, 255, 255, 1);
+}
+
+/* second view */
+
+.specifications{
+    padding-top: 1130px;
+}
+
+.car-info{
+    color: rgba(255, 255, 255, 1);
+    font-size: 64px;
+    font-weight: 600;
+}
+
+.fa-star,.fa-star-half-alt,.rating{
+    color: rgba(255, 172, 48, 1);
+}
+
+.rating{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.price{
+    color: rgba(85, 194, 255, 1);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.car-specs-parts{
+    color: rgba(85, 194, 255, 1);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* second-view with xuv-img */
+
+.xuv-bg{
+    width: 110%;
+    height: 125%;
+    object-fit: cover;
+}
+
+.xuv-img{
+    width: 95%;
+    height: 100%;
+    border-radius: 25%;
+}
+
+.xuv-offer{
+    color: rgba(255, 255, 255, 1);
+    margin: 70px 0 20px 0;
+    font-size: 24px;
+}
+
+.btn-for-offers{
+    background-color: rgba(255, 172, 48, 1);
+    color: black;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+/* third view starts from here */
+
+body .third-view{
+    margin: 110px 0;
+    background-color: white;
+    background-image: url('/asset/images/bg-lines.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.car-offer-details{
+    margin: 100px 0;
+}
+
+.third-view.car-info{
+    font-size: 64px;
+    font-weight: 600;
+}
+
+/* second-navbar */
+
+.second-navbar .navbar-list{
+    margin-top: 10px;
+}
+
+.varient-inputbar{
+    border-radius: 12px;
+    margin-top: 50px;
+    opacity: 28%;
+}
+
+.varient-inputbar::placeholder{
+    color: rgba(85, 194, 255, 1);
+    opacity: 1;
+}
+
+/* fourth view starts from here */
+
+.first-info-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.second-info{
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.second-info-title .second-info{
+    color: rgba(255, 172, 48, 1); 
+}
+
+.check-offers-btn{
+    background-color: black;
+    color: rgba(255, 172, 48, 1);
+    border: 2px solid rgba(255, 172, 48, 1);
+    border-radius: 20px;
+}
+
+.viewmore-btn{
+    color: rgba(255, 172, 48, 1);
+}
+
+/* five view of mileage */
+
+.xuv-mileage{
+    margin-top: 50px;
+}
+
+.white{
+    color: white;
+}
+
+/* sixth-view started */
+
+.advance-technology{
+    margin: 100px 0;
+}
+
+.advice-first-info{
+    color: rgba(255, 172, 48, 1);
+    font-size: 64px;
+    font-weight: 200;
+}
+
+.expertadvice-info{
+    color: white;
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.sideview-Img{
+    width: 100%;
+    height: auto;
+}
+
+.flipXUV-Img{
+    width: 100%;
+    height: 100%;
+    transform: rotateY(180deg);
+}
+
+.advice-info{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.advice-details{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+/* white XUV 700 Img */
+
+.whiteXUV700{
+    transform: rotateY(180deg);
+    object-fit: cover;
+}
+
+.advance-technology .check-offers-btn{
+    margin: 50px 0;
+}
+
+/* Black XUV section started */
+
+.black-XUV{
+    margin-bottom: 40px;
+}
+
+.no-fontweight{
+    font-weight: 100;
+}
+
+.tech-mahindra-font{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.absolute-amzaing-text{
+    color: rgba(0, 186, 108, 1);
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.could-not-text{
+    color: rgba(254, 89, 89, 1);
+}
+
+/* Mahindra-XUV-rating starts from here */
+
+.Mahindra-XUV-rating{
+    margin: 100px 0;
+}
+
+.filter-btn{
+    color: white;
+    border-color: white;
+}
+
+.card{
+    border: 2px solid white;
+    background-color: black;
+}
+
+.view-more-btn{
+    padding: 5px 20px;
+    margin: 50px 0;
+}
+
+/* testimonials-videos */
+
+.testimonials-videos{
+    margin: 20px 0;
+}
+
+.play-icon{
+    margin: 50px;
+    font-size: 100px;
+    background-color: white;
+    color: rgba(255, 172, 48, 1);
+    border-radius: 50%;
+}
+
+.bg-Img1,.bg-Img2,.bg-Img3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+
+.bg-Img1{
+    background-image: url('/asset/images/first-card-bgimg.jpg');
+}
+
+.bg-Img2{
+    background-image: url('/asset/images/second-card-bgimg.jpg');
+}
+
+.bg-Img3{
+    background-image: url('/asset/images/third-card-bg-Img.jpg');
+}
+
+.testimonials-videos .card{
+    border: 5px solid white;
+    border-radius: 20px;
+    margin-bottom: 100px;
+}
